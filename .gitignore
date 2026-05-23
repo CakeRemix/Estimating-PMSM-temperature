@@ -1,3 +1,5 @@
 **/__pycache__/
 pmsm/data/input/
-Documents/References/
+
+.venv/
+.venv37/

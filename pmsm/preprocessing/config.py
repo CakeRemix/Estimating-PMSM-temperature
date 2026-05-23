@@ -21,7 +21,7 @@ data_cfg = {
                            'stator_winding'
                           ],
     # for ewm and statistical moments
-    'rolling_lookback': [840, 6360, 3360, 1320],
+    'rolling_lookback': [840, 6360, 3360, 1320],z
     'valset': ['58'],
     'testset': ['65', '72'],
     'loss': 'mse',
@@ -30,7 +30,9 @@ data_cfg = {
 
     # paths
     'file_path': "data/input/measures.csv",
-    'db_path': 'data/results_lea38.db',
+    'db_path': 'data/'
+    ''
+    'results_lea38.db',
     'model_dump_path': 'data/output/',
     'save_predictions': True,
     'random_seed': 2019,

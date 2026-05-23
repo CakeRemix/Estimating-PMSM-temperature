@@ -359,7 +359,7 @@ def build_rnn_model(x_shape=(100, 1, 10),
     if n_gpus == 0:
         # proper dropout on RNN cells not implemented for CUDNN yet
         rnn_cfg['dropout'] = dropout_rate
-        rnn_cfg['recurrent_dropout'] = dropout_rate
+        rnn_cfg['recurrent_dropout'] = 0
 
     if True:  # n_layers > 1:  # todo: always return sequences?
         rnn_cfg['return_sequences'] = True

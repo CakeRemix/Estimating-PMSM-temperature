@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+deep_pmsm.egg-info/PKG-INFO
+deep_pmsm.egg-info/SOURCES.txt
+deep_pmsm.egg-info/dependency_links.txt
+deep_pmsm.egg-info/top_level.txt
